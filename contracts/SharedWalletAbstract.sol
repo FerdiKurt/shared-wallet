@@ -3,7 +3,7 @@ pragma solidity >=0.7.0 <0.8.0;
 
 import './Storage.sol';
 
-abstract contract SharedWalletAbstract is Storage{
+abstract contract SharedWalletAbstract is Storage {
     event AllowanceChanged(
         address indexed _from, 
         address indexed _to, 
